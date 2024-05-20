@@ -1,0 +1,15 @@
+Program służy do testowania programu a.cpp poprzez porównywanie wynikow
+z programem b.cpp (stress testing).
+Program działa na systemach linux.
+Aby użyć programu, wklej do a.cpp kod do sprawdzenia,
+a do programu b.cpp kod który działa deterministycznie (jest bezbłędny).
+
+W pliku gen.cpp zapisz generator testów.
+
+W oknie konsoli wpisz:
+
+chmod +x spr.sh
+bash spr.sh
+
+W momencie, w którym wyniki z tych dwóch programów będą się różnić,
+liczby na ekranie przestaną rosnąć.
